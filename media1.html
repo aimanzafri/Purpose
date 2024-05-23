@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Website</title>
+    <style>
+        body {
+            background-color: #E0E5E5; /* Set background color */
+            font-family: Arial, sans-serif; /* Set font */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+        header {
+            background-color: #BCC6CC; /* Set header background color */
+            color: #fff; /* Set text color */
+            padding: 10px 20px; /* Add padding */
+            text-align: center; /* Center align text */
+        }
+        .container {
+            max-width: 800px; /* Set max width for content */
+            margin: 20px auto; /* Center content */
+            padding: 0 20px; /* Add padding */
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            padding-top: 25px;
+            height: 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logopurpose.png" alt="Group Logo" width="100" height="50"> <!-- Replace "group_logo.png" with your actual logo file path -->
+    </div>
+    <div class="group-name">
+        PURPOSE <!-- Replace "Group Name" with your group name -->
+    </div>
+</header>
+
+<div class="container">
+    <h1>Introduction to Multimedia</h1>
+    <div class="video-container">
+        <iframe width="560" height="315" src="whatismultimedia.mp4" frameborder="0" allowfullscreen></iframe> <!-- Replace "VIDEO_ID" with your actual video ID -->
+    </div>
+</div>
+
+</body>
+</html>
